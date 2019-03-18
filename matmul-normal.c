@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-/* gcc -O2 matmul-normal.c -o matmul-normal -DN=... -DR=... */
-/* gcc -O2 matmul-normal.c -S -DN=... -DR=... */
+/* gcc -O2 matmul-normal.c -o matmul-normal -DN=... */
+/* gcc -O2 matmul-normal.c -S -DN=... */
 
 /* Function to measure duration of execution */
 void get_walltime(double *wct);
