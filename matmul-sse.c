@@ -84,6 +84,8 @@ int main(){
 				vfb++;
 
 			} //end of 3rd for loop
+			
+			/* Calculate the sum of the quadraple */
 			fsum = psum;
 			for(int i=0;i<4;i++){
 				*fc = *fc + *fsum;
